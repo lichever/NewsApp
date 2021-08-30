@@ -8,11 +8,11 @@ a Tinder-like News Android App
 *	Integrated Retrofit to pull the latest news data from a RESTFUL endpoint  (newsapi.org) 
 
 --- 
-#### Demo1: Home page and save page
-<img src="https://github.com/lichever/pictureBedForNormalUse/blob/main/gif/demo1_TinNews_Home.gif" width=650 height=360 />
+#### Demo1: Home page and Save page
+<img src="https://github.com/lichever/pictureBedForNormalUse/blob/main/gif/demo1_TinNews_Home.gif" width=300 height=450 />
 
-#### Demo2: search page
-<img src="https://github.com/lichever/pictureBedForNormalUse/blob/main/gif/demo2_TinNews_Search.gif" width=650 height=360 />
+#### Demo2: Search page
+<img src="https://github.com/lichever/pictureBedForNormalUse/blob/main/gif/demo2_TinNews_Search.gif" width=300 height=450 />
 
 
 
