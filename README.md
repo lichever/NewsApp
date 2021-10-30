@@ -1,13 +1,15 @@
-# Insurance Company Email Automation
+# NewsApp
+a Tinder-like News Android App 
+--
+*	Designed the Instagram Flavor News app based on Google Component Architectural MVVM Pattern
+*	Implemented the bottom bar & page navigation using JetPack navigation component 
+*	Utilized Yuya Kaido’s CardStackView to support swipe gestures for liking/disliking the news
+*	Built the Room Database with LiveData & ViewModel to support local cache and offline model
+*	Integrated Retrofit to pull the latest news data from a RESTFUL endpoint  (newsapi.org) 
 
-* To run this assigment, please select the Intellij "Edit configurations" when under the class **Processor** and then input your command line arguments in the **Program arguments** section. Now, you can run the main function in the class **Processor**.
-* All the provided email and letter templates, csv file, and **my templates** are in the "docs" directory under the root directory.
-* The UML Class diagram is in the UML directory under the root directory. 
-*	The relative path to the project root is used in this assignment which let the path could be platform independent. So, please use the relative directory path in the commands "--output-dir <path>", "--email-template <file>", "--letter-template <file>", and "--csv-file <path>".
-* Note that the output path for the command "--output-dir <path>" cannot be the same in the second run, which would throw an exception. So, please specify different directory names in the multiple runs or delete the previous one before the next run.
-* Examples for successful email and letter generation:
-  1. --email --email-template docs/email-template.txt --output-dir emails --csv-file docs/insurance-company-members.csv
-  2. --letter --letter-template docs/letter-template.txt --output-dir letters --csv-file docs/insurance-company-members.csv
+--- 
+#### Demo1: Home page and Save page
+<img src="https://github.com/lichever/pictureBedForNormalUse/blob/main/gif/demo1_TinNews_Home.gif" width=300 height=450 />
 
-
-
+#### Demo2: Search page
+<img src="https://github.com/lichever/pictureBedForNormalUse/blob/main/gif/demo2_TinNews_Search.gif" width=300 height=450 />
